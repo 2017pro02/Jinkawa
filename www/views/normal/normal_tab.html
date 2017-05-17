@@ -1,0 +1,23 @@
+<!-- 一般用のタブバー -->
+<!-- CSSの設定 -->
+<link rel="stylesheet" href="css/normal_tab.css">
+
+<ons-page>
+    <ons-tabbar var="normaltabbar">
+        <ons-tab page="views/normal/normal_event_list.html"
+        icon="ion-ios-calendar-outline"
+        label="イベント"
+        active="true"
+        ></ons-tab>
+        <ons-tab
+        icon="ion-ios-chatboxes-outline"
+        label="お知らせ"
+        page="views/normal/normal_information.html"
+        ></ons-tab>
+        <ons-tab
+        icon="gear"
+        label="設定"
+        page="views/normal/normal_config.html"
+        ></ons-tab>
+    </ons-tabbar>
+</ons-page>
