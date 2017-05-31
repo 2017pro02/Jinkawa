@@ -86,7 +86,7 @@ function clearStorage() {
         messageHTML:
         '参加申し込みで入力した情報の履歴が削除されますがよろしいですか？',
         buttonLabels: ['はい','いいえ'],
-        primaryButtonIndex: 1,
+        primaryButtonIndex: 0,
         cancelable: true,
         callback: function(index){
             switch (index) {
@@ -170,4 +170,9 @@ function ExportList(eventObj, participants) {
     // Safariやchromeを用いて、生成したcsvを表示
     //window.open('https://mb.api.cloud.nifty.com/2013-09-01/applications/zMCtGPFYQE1JZ2UY/publicFiles/' + filename +'','_system','toolbarposition=top,suppressesIncrementalRendering=yes,location=no,closebuttoncaption=戻る');
     window.open('https://mb.api.cloud.nifty.com/2013-09-01/applications/zMCtGPFYQE1JZ2UY/publicFiles/' + filename +'','_system','location=no');
+}
+
+function open_jinkawaHP(){
+    window.open('http://www.jinkawaasahi.com/','_blank','toolbarposition=top,suppressesIncrementalRendering=yes,closebuttoncaption=戻る,enableViewportScale=yes');//アプリ内
+    //window.open('http://www.jinkawaasahi.com/','_system');//Safari or Chrome
 }
