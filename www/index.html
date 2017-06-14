@@ -23,7 +23,8 @@
 
   <script>
     var app = ons.bootstrap('jinnovation', ['onsen']);
-    var ncmb = new NCMB("ac69f8ae05be198a2425d61666016a4e79bef4c05955253a197e7307d1deb414", "4bf572b3f7da4bb9c88091702f81e8cc5191641a912006f1e0ab7347376803af");//APIキーの設定
+    //var ncmb = new NCMB("ac69f8ae05be198a2425d61666016a4e79bef4c05955253a197e7307d1deb414", "4bf572b3f7da4bb9c88091702f81e8cc5191641a912006f1e0ab7347376803af");//APIキーの設定
+    var ncmb = new NCMB("cc91ad43af30adb2ccd47ff37d145a1e30488d67531d208df856b81460c5bf47", "beb1141a7654a554bed8ab4cb8dfc5552c48379532c6cd79f8bad6e3f4e49ae3");//APIキーの設定 デバック
     ons.ready(function() {
         console.log("Onsen UI is ready!");
         EditNavigator.on('postpush', function(event){//Navigatorの挙動を設定
