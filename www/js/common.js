@@ -169,8 +169,7 @@ function ExportList(eventObj, participants) {
             });
     // Safariやchromeを用いて、生成したcsvを表示
     //window.open('https://mb.api.cloud.nifty.com/2013-09-01/applications/zMCtGPFYQE1JZ2UY/publicFiles/' + filename +'','_system','toolbarposition=top,suppressesIncrementalRendering=yes,location=no,closebuttoncaption=戻る');
-    //window.open('https://mb.api.cloud.nifty.com/2013-09-01/applications/zMCtGPFYQE1JZ2UY/publicFiles/' + filename +'','_system','location=no');
-    window.open('https://mb.api.cloud.nifty.com/2013-09-01/applications/9pPO2A36w5QxNyvG/publicFiles/' + filename +'','_system','location=no'); // デバッグ
+    window.open('https://mb.api.cloud.nifty.com/2013-09-01/applications/zMCtGPFYQE1JZ2UY/publicFiles/' + filename +'','_system','location=no');
 }
 
 function open_jinkawaHP(){
