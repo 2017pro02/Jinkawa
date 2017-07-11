@@ -9,7 +9,7 @@ function login(){//役員としてログインするときに呼ばれる関数
                 EditNavigator.pushPage('views/officer/officer_tab.html');
             }
         });
-    }else if(pass.match(/jinkawa885500\d/)){
+    }else if(pass.match(/jinkawa-dummy\d/)){ //jinkawa885500\d
         var no = pass.slice(-1);
         ons.notification.alert({
             title: '認証されました',
