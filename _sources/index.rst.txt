@@ -8,9 +8,11 @@
 
 .. toctree::
    :maxdepth: 2
+   :glob:
    :caption: Documents
 
    specifications/specification
+   minutes/index
 
 
 Index
