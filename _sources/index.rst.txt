@@ -11,7 +11,7 @@
    :glob:
    :caption: Documents
 
-   specifications/specification
+   specifications/index
    minutes/index
 
 
